@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "InsureBot",
+    "slug": "projeto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "scheme": "your-app-scheme",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.luizedu94.projeto"
+    },
+    "web": {
+      "favicon": "./assets/favicon1.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4fb5aebe-9598-476a-909a-c15f478c04e8"
+      }
+    },
+    "owner": "luizedu94"
+  }
+}
